@@ -1,0 +1,14 @@
+[setup]
+sources = ['loham_lgv', 'loham_lgv', 'lopops', 'motion', 'momo']
+sample = 0.1
+epsg = 27700
+seed = 1234
+verbose = false
+
+[paths]
+data_dir = "<REMOVED>"
+out_dir = "working_dir"
+plans_name = "plans.xml"
+attributes_name = "attributes.xml"
+
+
