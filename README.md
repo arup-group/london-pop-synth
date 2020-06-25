@@ -39,19 +39,17 @@ data sources and types. For example plans derived from **GPS traces** and from *
 
 #### Setup
 
-Clone and local pip install with `pip3 install -e .`.
-`cd lps`
-`pip3 install -r requirements.txt`
-`pytest -v`  # will not work without data access
-
-`lps -h`
-
 ```
-Usage: mimi [OPTIONS] CONFIG_PATH
+pip3 install -e .
+pytest -v  # will not work without data access
+
+lps -h
+
+Usage: lps [OPTIONS] CONFIG_PATH
 
 Options:
   -h, --help  Show this message and exit.
-  ```
+```
 
 #### Use
 
